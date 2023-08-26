@@ -1,13 +1,12 @@
 
 import "./App.css";
-import State from "./Bài tập glasses/State";
-import Home from "./BaiTapThucHanhLayout/Home";
+import ShoeShop from "./ShoeShop/ShoeShop"
+import data from "./ShoeShop/data.json"
 
 function App() {
   return (
     <div>
-      <Home />
-      <State />
+      <ShoeShop />
     </div>
   );
 }
