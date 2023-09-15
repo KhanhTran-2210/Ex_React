@@ -1,13 +1,11 @@
 
 import "./App.css";
-import State from "./Bài tập glasses/State";
-import Home from "./BaiTapThucHanhLayout/Home";
+import MovieTickets from "./MovieTickets/MovieTickets";
 
 function App() {
   return (
     <div>
-      <Home />
-      <State />
+      <MovieTickets />
     </div>
   );
 }
